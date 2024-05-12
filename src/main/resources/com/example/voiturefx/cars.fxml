@@ -36,7 +36,7 @@
             <TextField fx:id="txtmarque" prefHeight="26.0" prefWidth="202.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField fx:id="txtmodele" prefHeight="26.0" prefWidth="202.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="txtannee" onKeyTyped="#checkNum" prefHeight="26.0" prefWidth="99.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <TextField fx:id="txtcarId" onKeyTyped="#checkNum" prefHeight="26.0" prefWidth="99.0" GridPane.columnIndex="1" />
+            <TextField fx:id="txtcarId" onKeyReleased="#checkNum" prefHeight="26.0" prefWidth="99.0" GridPane.columnIndex="1" />
          </children>
       </GridPane>
       <HBox layoutX="65.0" layoutY="301.0" prefHeight="38.0" prefWidth="510.0" spacing="10.0">

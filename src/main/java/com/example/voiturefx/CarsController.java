@@ -160,7 +160,7 @@ public void Sauvegarder()
                 alert.showAndWait();
                 txt.setText("");
                 txt.requestFocus();
-                throw new RuntimeException(ex);
+
             }
         }
         return true;
